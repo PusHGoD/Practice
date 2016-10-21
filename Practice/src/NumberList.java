@@ -5,27 +5,6 @@ import java.util.StringTokenizer;
 
 public class NumberList {
 
-	public static int findAvg(String a) {
-		StringTokenizer stk = new StringTokenizer(a, " ");
-		ArrayList arr = new ArrayList();
-		while (stk.hasMoreTokens()) {
-			arr.add(Integer.parseInt(stk.nextToken()));
-		}
-		Collections.sort(arr);
-		int avg = arr.size() / 2;
-		return (int) arr.get(avg);
-	}
-
-	public static int findMax(int[] nums) {
-		int max = nums[0];
-		for (int i = 0; i < nums.length; i++) {
-			if (nums[i] > max) {
-				max = nums[i];
-			}
-		}
-		return max;
-	}
-
 	public static int getMin(int[] nums) {
 		if (nums.length > 0) {
 			int min = nums[0];
