@@ -1,11 +1,5 @@
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Scanner;
-import java.util.StringTokenizer;
-
 public class NumberList {
-
-	public static int findAvg(String a) {
+public static int findAvg(String a) {
 		StringTokenizer stk = new StringTokenizer(a, " ");
 		ArrayList arr = new ArrayList();
 		while (stk.hasMoreTokens()) {
@@ -59,5 +53,6 @@ public class NumberList {
 		System.out.println("Avg:" + findAvg(a));
 		sc.close();
 	}
+
 
 }
