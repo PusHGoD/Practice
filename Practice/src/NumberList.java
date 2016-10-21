@@ -30,7 +30,7 @@ public class NumberList {
 		}
 		System.out.println("Max:" + findMax(nums));
 		System.out.println("Min:" + getMin(nums));
-		System.out.println("Avg:" + getMin(nums));
+		System.out.println("Avg:" + avgNum(nums));
 		sc.close();
 	}
 }
